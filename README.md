@@ -1,0 +1,1 @@
+A simple notebook showing weird hallucinations arising from the Hugging Face Smolagents default system prompt e.g. papal age fixation with a locally run (via ollama) copy of Qwen2.5-Coder (4.7GB version)
