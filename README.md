@@ -1,6 +1,6 @@
 This is a simple notebook that demonstrates some weird hallucinations arising from the Hugging Face Smolagents <https://github.com/huggingface/smolagents> default system prompt (e.g. papal age fixation) with a locally run (via ollama) copy of Qwen2.5-Coder-7B (4.7GB version) <https://ollama.com/library/qwen2.5-coder> 
 
-In consultation with ChatGPT <https://chatgpt.com/share/67fe1c23-2c30-800a-b98d-08bc029c6d9d> (yes I appreciate the irony of using a LLM to diagnose problems with another LLM), it appears that the model may be hallucinating a Chain of Thought pattern related to the examples provided in SmolAgent's underlying system prompt that I've reproduced below:
+In consultation with ChatGPT <https://chatgpt.com/share/67fe1c23-2c30-800a-b98d-08bc029c6d9d> (yes I appreciate the irony of using a LLM to diagnose problems with another LLM), it appears that the model may be hallucinating a Chain of Thought pattern related to the examples provided in SmolAgent's underlying system prompt <https://huggingface.co/docs/smolagents/tutorials/building_good_agents> that I've reproduced below:
 
 '''You are an expert assistant who can solve any task using code blobs. You will be given a task to solve as best you can.
 To do so, you have been given access to a list of tools: these tools are basically Python functions which you can call with code.
