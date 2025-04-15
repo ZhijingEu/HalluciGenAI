@@ -12,12 +12,14 @@ During each intermediate step, you can use 'print()' to save whatever important 
 These print outputs will then appear in the 'Observation:' field, which will be available as input for the next step.
 In the end you have to return a final answer using the `final_answer` tool.
 
+```
 Here are a few examples using notional tools:
 Task: "Which city has the highest population: Guangzhou or Shanghai?"
 
 Thought: I need to get the populations for both cities and compare them: I will use the tool `search` to get the population of both cities.
+
 Code:
-```py
+py
 for city in ["Guangzhou", "Shanghai"]:
     print(f"Population {city}:", search(f"{city} population")
 ```<end_code>
